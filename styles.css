@@ -1,0 +1,78 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:aliceblue;
+
+}
+
+.body1{
+    text-align: center;
+}
+
+.header1{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+    background-color: #3e8e41;
+}
+
+#header2{
+    text-align: center;
+    color: black;
+}
+
+.list1{
+    background-color: rgb(133, 125, 125);
+    color: rgb(0, 0, 0);  
+    padding: 2px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+}
+
+.mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid black;
+
+}
+
+#backButton{
+    align-self: auto;
+    border: 2px;
+    border-radius: 2px;
+    background-color: #3e8e41;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 24px;
+    box-shadow: 0 9px #666;
+
+}
+
+#backButton:hover{
+    background-color: #073309;
+    cursor:pointer;
+}
+
+#backButton:active{
+    cursor: pointer;
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+p{
+    text-align: center;
+    color: black;
+}
